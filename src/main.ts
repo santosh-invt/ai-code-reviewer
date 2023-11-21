@@ -103,7 +103,7 @@ function createPrompt(file: File, chunk: Chunk, prDetails: PRDetails): string {
 - Provide comments and suggestions ONLY if there is something to improve, otherwise return an empty array.
 - Write the comment in GitHub Markdown format.
 - Use the given description only for the overall context and only comment the code.
-- IMPORTANT: NEVER suggest adding comments to the code.
+- Please suggest adding comments to the code when needed.
 
 Review the following code diff in the file "${
     file.to
